@@ -32,4 +32,8 @@ Sketch -> Include  Library  -> nrf24l01.zip
 ```  
 ## Gotcha  
 If used Arduino Nano, install serial port driver for mac os catalina and above    
-https://github.com/ledongthuc/example/blob/master/file/CH34x_Install_V1.3.zip
+https://github.com/adrianmihalko/ch340g-ch34g-ch34x-mac-os-x-driver/blob/master/CH34x_Install_V1.5.zip  
+https://arduino.stackexchange.com/questions/804/arduino-nano-uploading-gives-error-avrdude-stk500-recv-programmer-is-not-re  
+https://github.com/adrianmihalko/ch340g-ch34g-ch34x-mac-os-x-driver   
+
+

@@ -4,7 +4,7 @@
 #include <MirfHardwareSpiDriver.h>
 void setup()
 {
-    Serial.begin(9600);
+    Serial.begin(115200); //  9600
 
     Mirf.cePin = 9;                
     Mirf.csnPin = 10;       

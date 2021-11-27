@@ -6,7 +6,7 @@ unsigned int adata = 0;
 int LED = 3;
 void setup()
 {
-    Serial.begin(9600);
+    Serial.begin(9600); // 9600,  115200
     pinMode(LED, OUTPUT);
     Mirf.cePin = 9;     
     Mirf.csnPin = 10;   
@@ -26,7 +26,7 @@ void loop()
     {
         Mirf.getData(data);   
         adata = (unsigned int)((data[1] << 8) | data[0]);
-            Serial.print("pin=");
+            Serial.print("1st: pin=");
             Serial.println(adata);
     }
     else
@@ -36,6 +36,8 @@ void loop()
       }
      if(adata==123)
      {
+        Serial.print("adata_pin=");
+        Serial.println("adata=123");
          digitalWrite(LED, LOW);
          delay(500);
      }

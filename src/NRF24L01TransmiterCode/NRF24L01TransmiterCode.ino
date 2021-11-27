@@ -4,7 +4,7 @@
 #include <MirfHardwareSpiDriver.h>
 void setup()
 {
-    Serial.begin(115200); //  9600
+    Serial.begin(9600); //  9600
 
     Mirf.cePin = 9;                
     Mirf.csnPin = 10;       
@@ -19,6 +19,7 @@ void setup()
 unsigned int adata = 0;
 void loop()
 {
+  Serial.println("I'm Sender...loop");
     adata=123;
     byte data[Mirf.payload];
     data[0] = adata & 0xFF;                

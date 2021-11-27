@@ -30,3 +30,6 @@ IRQ <---------> is not connected
 ```  
 Sketch -> Include  Library  -> nrf24l01.zip   
 ```  
+## Gotcha  
+If used Arduino Nano, install serial port driver for mac os catalina and above    
+https://github.com/ledongthuc/example/blob/master/file/CH34x_Install_V1.3.zip

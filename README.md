@@ -12,7 +12,7 @@ Parts Required
 2 x NRF24L01 Wireless Transceiver Module Regulator N x Jumper Wires  
 
 # PIN  Configuration  
-NRF24L01 Regulator <--------> Arduino Nano
+NRF24L01 Regulator <--------> Arduino Nano  
 VCC <--------> 5V  
 GND <--------> GND  
 CE <-----------> D9  

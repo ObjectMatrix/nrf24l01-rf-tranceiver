@@ -24,7 +24,18 @@ SCK <---------> D13
 IRQ <---------> is not connected  
  
 ```
-
+| NRF24L01 Regulator | Arduino Nano |
+|----------|:-------------:|
+| VCC | 5V | 
+| GND | GND |
+| CE | D9 |
+| CSN | D10 |
+| MOSI | D11 |
+| MISO | D12 |
+| SCK | D13 |
+| IRQ | is not connected |
+```
+    
 
 # External Libraries  
 ```  

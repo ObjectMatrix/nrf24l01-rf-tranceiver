@@ -24,3 +24,9 @@ SCK <---------> D13
 IRQ <---------> is not connected  
  
 ```
+
+
+# External Libraries  
+```  
+Sketch -> Include  Library  -> nrf24l01.zip   
+```  
